@@ -1157,7 +1157,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   font-size: 1.65em;
   line-height: 1.75em;
-  color: #0A81C4; }
+  color: #38ec66; }
   @media screen and (max-width: 736px) {
     h2 {
       font-size: 1.1em;
@@ -1797,20 +1797,23 @@ button,
     @media screen and (max-width: 736px) {
       .full-grid .left {
         width: 100%;
-        padding: 0 25px 0 40px; } }
+        padding: 0 25px 0 40px;
+        margin-bottom: 1em;
+        text-align: center; } }
   .full-grid .right {
     width: 50%;
     padding: 50px; }
     @media screen and (max-width: 736px) {
       .full-grid .right {
         width: 100%;
-        padding: 0 40px 0 40px; } }
+        padding: 0 40px 0 40px;
+        text-align: center; } }
   .full-grid.double-grid li {
     width: 20%;
     font-size: 25px;
     text-transform: uppercase;
     font-family: "Lora", serif;
-    color: #0A81C4;
+    color: #38ec66;
     text-align: center; }
     .full-grid.double-grid li:after {
       content: '\f105';
@@ -1931,9 +1934,21 @@ button,
   padding: 4em 12em 4em 12em; }
   .spotlight-header h2 {
     font-size: 3em;
-    margin: 1em 0 0 0; }
+    padding: 1em 0 0 0 !important;
+    margin: 0 !important; }
+    @media screen and (max-width: 980px) {
+      .spotlight-header h2 {
+        font-size: 2em;
+        padding: 1em 4em; } }
+    @media screen and (max-width: 736px) {
+      .spotlight-header h2 {
+        font-size: 1.4em;
+        padding: 1em 4em; } }
   .spotlight-header p {
     color: #dedede; }
+  @media screen and (max-width: 980px) {
+    .spotlight-header {
+      padding: 1em 4em; } }
 
 .spotlight {
   -moz-align-items: center;
@@ -2528,6 +2543,12 @@ body.is-menu-visible #menu {
     color: #38ec66;
     text-shadow: white;
     line-height: 1em; }
+    @media screen and (max-width: 980px) {
+      #banner h2 {
+        font-size: 3em !important; } }
+    @media screen and (max-width: 736px) {
+      #banner h2 {
+        font-size: 3em; } }
     #banner h2:before, #banner h2:after {
       -moz-transition: width 0.85s ease;
       -webkit-transition: width 0.85s ease;
@@ -2812,3 +2833,6 @@ body.is-mobile.landing #footer {
   padding: 6em 0 6em 0; }
   .section-padding-large .major h2 {
     border: none; }
+  @media screen and (max-width: 980px) {
+    .section-padding-large {
+      padding: 3em 0 3em 0; } }

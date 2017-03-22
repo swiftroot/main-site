@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SwiftRoot</title>
-    <description>Your ideas + our team. Together as co-owners, we build&lt;br&gt;value-driven apps &amp; websites.</description>
+    <title>Swift Root</title>
+    <description>Your ideas + our team. Together as co-owners, we build&lt;br&gt; value-driven apps &amp; websites.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Mar 2017 17:18:13 -0600</pubDate>
-    <lastBuildDate>Tue, 21 Mar 2017 17:18:13 -0600</lastBuildDate>
+    <pubDate>Tue, 21 Mar 2017 22:16:01 -0600</pubDate>
+    <lastBuildDate>Tue, 21 Mar 2017 22:16:01 -0600</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
   </channel>
