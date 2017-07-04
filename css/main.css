@@ -2562,7 +2562,7 @@ body.is-menu-visible #menu {
     text-align: center;
     letter-spacing: 0.08em;
     color: #dedede;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 300;
     padding: 0;
     margin-bottom: 5px;
@@ -2572,6 +2572,10 @@ body.is-menu-visible #menu {
         width: 95%; } }
     #banner p a {
       color: inherit; }
+    #banner p.minor {
+      font-size: 1em;
+      margin-top: 1em;
+      padding: 0 25%; }
   #banner .more {
     -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
     -webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
