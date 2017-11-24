@@ -1389,7 +1389,7 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #2e3842;
+    background: #1b1b1b;
     color: #fff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
@@ -2123,7 +2123,7 @@ button,
       .wrapper.style1 .features li {
         border-top-color: #323232; } }
   .wrapper.style2 {
-    background-color: #2e3842; }
+    background-color: #1b1b1b; }
   .wrapper.style3 {
     background-color: white;
     color: black; }
@@ -2634,7 +2634,7 @@ body.is-menu-visible #menu {
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     content: '';
-    background: #2e3842;
+    background: #1b1b1b;
     display: block;
     width: 100%;
     height: 100%;
@@ -2755,7 +2755,7 @@ body.is-mobile #main > header {
 /* Footer */
 #footer {
   padding: 6em 0 4em 0 ;
-  background-color: #1d242a;
+  background-color: #070707;
   text-align: center; }
   #footer .icons {
     font-size: 1.25em; }
@@ -2810,7 +2810,7 @@ body.landing #page-wrapper {
   background-size: cover;
   padding-top: 0; }
 body.landing #footer {
-  background-color: rgba(29, 36, 42, 0.9); }
+  background-color: rgba(7, 7, 7, 0.9); }
 
 body.is-mobile.landing #page-wrapper {
   background: none; }
@@ -2824,7 +2824,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-repeat: no-repeat;
   background-size: cover; }
 body.is-mobile.landing #footer {
-  background-color: #1d242a; }
+  background-color: #070707; }
 
 /* Addons */
 .section-padding-large {
